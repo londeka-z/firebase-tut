@@ -1,0 +1,35 @@
+Learner POV
+
+- As a learner I want to access a landing page with clear
+instructions on how to login or register. 
+- As a learner I want to know if my details are entered 
+correctly
+- As a learner I want to know if my username or password
+is incorrect 
+- As a learner I want to know that my login is successful 
+and be redirected to my dashboard
+
+1. Form - fields that take in input
+2. client side validation
+3. Authentication request (JWT)
+4. Firebase Auth response - checking of user credntials 
+and supplying a token. 
+5. uid => tasks, profile, role etc
+6. Database profile and data 
+7. UI redirect
+
+
+/////////////////////////////////////////////////////////////////
+HISTORY 
+ firebase init 
+$ history |tail
+  504  firebase deploy --only functions:registerLearner
+  505  firebase init emulators
+  506  firebase emulators:start --only functions
+  507  firebase emulators:start --only functions
+  508  firebase emulators:start --only functions
+  509  firebase emulators:start --only functions
+  510  firebase init emulators
+  511  cd ..
+  512  firebase emulators:start --only functions
+  513  history |tail

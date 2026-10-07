@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Track</title>
+</head>
+<body>
+  <h1> Welcome To SkillsTrack </h1>
+  <h3> if you have an account <a href="/redirect"> Go here</a> </h3>
+<form id="registerForm">
+  <label>Name</label>
+  <input id="name" type="text" required minlength = "2" >
+  <label>Email</label>
+  <input id="email" type="email" placeholder="Enter your email" >
+  <label>Password</label>
+  <input id ="password" type="password" required minlength="6">
+  <button id="registerBtn" type="submit" > Register </button>
+  <p id="message"></p>
+</form>
+<script type="module" src="./registerLearners.js"></script>
+</body>
+</html>
